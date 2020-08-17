@@ -1,6 +1,8 @@
 # Proyecto final Taller de Embebidos
 ### 1 semestre 2020
-Reglas del Juego
+Reglas del Juego:
+1. Juegan 4 jugadores
+2. Se elige la cantidad de rondas
 ### Prof.Johan
 
 
