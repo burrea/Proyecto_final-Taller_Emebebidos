@@ -1,5 +1,6 @@
 # Proyecto final Taller de Embebidos
 ### 1 semestre 2020
+Reglas del Juego
 ### Prof.Johan
 
 
