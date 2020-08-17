@@ -158,14 +158,14 @@ class MainWindow(QMainWindow):#Clase donde se definen los objetos que definen la
                 self.turno.setText(print("Turno de Jugador" + str(turno)) )
                 time.sleep(3)
                 print("Jugador"+ str(turno))
-                #cap = cv2.VideoCapture(0)
-                #leido, frame = cap.read()
-                #if leido == True:
-                    #nombre_foto = "Imagen_nueva.png"
-                    #cap.release()
-                #else:
-                    #cap.release()
-                #cv2.imwrite(nombre_foto,frame)
+                cap = cv2.VideoCapture(0)
+                leido, frame = cap.read()
+                if leido == True:
+                    nombre_foto = "Imagen_nueva.png"
+                    cap.release()
+                else:
+                    cap.release()
+                cv2.imwrite(nombre_foto,frame)
                 
                 puntos[turno-1]=puntos[turno-1]+1
                 print (cv2.__version__)
@@ -175,7 +175,7 @@ class MainWindow(QMainWindow):#Clase donde se definen los objetos que definen la
                 RED_LOW_THRESHOLD = 209
                 MIN_PIP_AREA = 10
 
-                img = cv2.imread("dice-real"+str(random.randint(1,13))+".png")
+                img = cv2.imread(nombre_foto)
 
         ### imagen umbral
 
