@@ -31,7 +31,7 @@ Para la implementacion del juego fueron necesarios los paquetes que se enuncian 
 | ------ | ------ |
 | Capa personalizada | [meta-custom][PMC] |
 | Archivos de configuracion de la imagen | [bblayers.conf][PBB] y [local.conf][PLC] |
-| Juego en Python | [juego][PJP] |
+| Juego en Python | [aplicacion][PJP] |
 
 > La implementacion de la interfaz grafica con Qt5 fue producto de muchas iteraciones ya que comunmente se usa c++ para aplicaciones con Qt5. Se hace "cross compilacion" y el archivo ejecutable se despliega en la tarjeta mediante un "toolchain".
 > Ya que la propuesta definio el uso de Python, y las pocas implementaciones encontradas en la literatura de Qt5 con Python, hicieron que el proceso requiriera contrucciones largas (en tiempo) y varias iteraciones.
@@ -44,3 +44,4 @@ $ bitbake core-image-base
    [PMC]: <https://github.com/burrea/Proyecto_final-Taller_Emebebidos/tree/master/meta-custom/recipes-dados/python-dadotest/python-dadotest-1.0>
    [PBB]: <https://github.com/burrea/Proyecto_final-Taller_Emebebidos/blob/master/bblayers.conf>
    [PLC]: <https://github.com/burrea/Proyecto_final-Taller_Emebebidos/blob/master/local.conf>
+   [PJP]: <https://github.com/burrea/Proyecto_final-Taller_Emebebidos/blob/master/aplicacion/aplicacion.py>
