@@ -1,4 +1,0 @@
-SANITY_VERSION 1
-TMPDIR /home/bes/Documents/1semestre20/poky-sumo-19.0.1/emuARM/tmp
-SSTATE_DIR /home/bes/Documents/1semestre20/poky-sumo-19.0.1/emuARM/sstate-cache
-NATIVELSBSTRING ubuntu-18.04
