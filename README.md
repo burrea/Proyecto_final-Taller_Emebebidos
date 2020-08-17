@@ -33,7 +33,7 @@ Se uso una image base mediante el comando:
 ```sh
 $ bitbake core-image-base
 ```
-
+###Reglas del juego
    [PMC]: <https://github.com/burrea/Proyecto_final-Taller_Emebebidos/tree/master/meta-custom/recipes-dados/python-dadotest/python-dadotest-1.0>
    [PBB]: <https://github.com/burrea/Proyecto_final-Taller_Emebebidos/blob/master/bblayers.conf>
    [PLC]: <https://github.com/burrea/Proyecto_final-Taller_Emebebidos/blob/master/local.conf>
