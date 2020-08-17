@@ -1,8 +1,12 @@
 # Proyecto final Taller de Embebidos
 ### 1 semestre 2020
-Reglas del Juego:
+Reglas del Juego poker de dados:
 1. Juegan 4 jugadores
 2. Se elige la cantidad de rondas
+3. Por cantidad de rondas cada jugador tienen un turno para lanzar dados
+4. La cámara web toma captura de la posición de los dados y automaticamente se cuenta los puntos
+5. si un jugador supera los veintiun puntos, no se le cuenta más los puntos y queda fuera del juego
+6. De los jugadores no eliminados, gana el que tenga más puntos cuando se acaban las rondas
 ### Prof.Johan
 
 
